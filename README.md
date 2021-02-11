@@ -180,6 +180,7 @@ We deployed the automl model. It  is deployed using Azure Containce Instance (AC
 
 
 ## SCREEN RECORDING
+Link for the screencast video https://youtu.be/oHAuaRUzTWU 
 
 
 
