@@ -9,6 +9,8 @@ In this project, we create two models
 Then we compare the performance of both models and deploy one of them as HTTP REST endpoint. Once the model is deployed successfully we then test the endpoint
 Azure ML Studio graphical interface is not used in this project, we use python SDK notebooks to complete the project. 
 
+<img src = "Architecture.png"  />
+
 ## DATASET
 ### OVERVIEW:
 Dataset used in this project has been taken from Kaggle.com. Dataset is titanic machine learning dataset. 
@@ -96,25 +98,25 @@ AutoML generated about 86 models. AutoML results includes the best model and als
 
  Below are some screenshots of AutoML:
  
- <img src = "Screenshots/1.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/1.jpg"  />
  
- <img src = "Screenshots/2.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/2.jpg"  />
  
- <img src = "Screenshots/3.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/3.jpg"  />
  
- <img src = "Screenshots/4.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/4.jpg"  />
  
- <img src = "Screenshots/5.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/5.jpg"  />
  
- <img src = "Screenshots/6.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/6.jpg"  />
  
- <img src = "Screenshots/7.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/7.jpg"  />
  
- <img src = "Screenshots/8.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/8.jpg"  />
  
- <img src = "Screenshots/9.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/9.jpg"  />
  
- <img src = "Screenshots/10.png"  />
+ <img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/10.jpg"  />
  
  
 ### Improvement:
@@ -141,38 +143,38 @@ Early stopping policy used here is BanditPolicy. This policy is based on slack f
 
 We run this Pipeline multiple times and we register our model for future use. In this case the best model was generated using this hyperparameters (C = '3', max_iter = '15') and give us an Accuracy of 0.8695
 
-<img src = "Screenshots/11.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/11.jpg"  />
 
-<img src = "Screenshots/12.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/12.jpg"  />
 
-<img src = "Screenshots/13.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/13.jpg"  />
 
-<img src = "Screenshots/14.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/14.jpg"  />
 
-<img src = "Screenshots/15.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/15.jpg"  />
 
-<img src = "Screenshots/16.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/16.jpg"  />
 
-<img src = "Screenshots/17.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/17.jpg"  />
 
-<img src = "Screenshots/18.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/18.jpg"  />
 
-<img src = "Screenshots/19.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/19.jpg"  />
 
-<img src = "Screenshots/20.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/20.jpg"  />
 
 ## MODEL DEPLOYMENT
 We deployed the automl model. It  is deployed using Azure Containce Instance (ACI Service) with 2 cpu_cores and 1 gb of memory_gb. Ofcourse this deployment wont be possible without scoring file 'scoringScript.py'  alongside 'envFile.yml'. Scoring file was important for creating Inference Configration for ACI.
 
-<img src = "Screenshots/21.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/21.jpg"  />
 
-<img src = "Screenshots/22.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/22.jpg"  />
 
-<img src = "Screenshots/23.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/23.jpg"  />
 
-<img src = "Screenshots/24.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/24.jpg"  />
 
-<img src = "Screenshots/25.png"  />
+<img src = "https://github.com/Basit040/MICROSOFT-AZURE-CAPSTONE-PROJECT-/blob/main/Screenshots/25.jpg"  />
 
 
 
